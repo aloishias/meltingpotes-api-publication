@@ -1,0 +1,33 @@
+{
+  "name": "api-publication",
+  "version": "1.0.0",
+  "description": "![Gif de la bonne humeur](https://media1.tenor.com/images/f72cb542d6b3e3c3421889e0a3d9628d/tenor.gif?itemid=4533805)",
+  "main": "config.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "keycloak-connect": "^8.0.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2",
+    "uuid": "^3.3.3",
+    "uuid-validate": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/meltingpotes/api-publication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/meltingpotes/api-publication/issues"
+  },
+  "homepage": "https://gitlab.com/meltingpotes/api-publication#readme"
+}
