@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> API Rest member of meltingpotes project. NodeJS, ExpressJS and Sequelize
+> API Rest publication of meltingpotes project. NodeJS, ExpressJS and Sequelize
 
 
 
