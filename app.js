@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
-const port = 3100
+const port = process.env.PORT || 3100
 const cors = require('cors')
 
 const publicationroutes = require('./src/routes/Publication.js')
